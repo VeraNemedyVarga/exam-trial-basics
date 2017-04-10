@@ -32,4 +32,10 @@ The application is accepted if:
 ## 5. Question time! (~15 mins) [2p]
 
 ### How can you generate a random number? [2p]
-#### Your answer: [add your answer here]
+#### Your answer: First, we have to import the random module as such:
+#import random
+#if we want to specify the range, from where it picks a random number, we can do it as such:
+#random.random() * 50
+#This would pick numbers between 0 and 50.
+#We can also specify this to only pick integers, like:
+#random.randint() * 50
